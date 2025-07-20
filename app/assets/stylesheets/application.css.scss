@@ -8,3 +8,12 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+ 
+ $jumbotron-bg: #0041a0;
+ $navbar-default-gb: #014421;
+ $body-bg: #fa9fb9;
+
+ 
+/* "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"*/
+@import "bootstrap-sprockets";
+@import "bootstrap";
