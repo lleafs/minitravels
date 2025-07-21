@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "rails", "~> 8.0.2"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 #gem "propshaft"
-#Pipeline Setup Sprockets Rails Intergration
+#Pipeline Setup Sprockets Rails Intergration [https://rubygems.org/gems/sprockets-rails]
 gem 'sprockets-rails', '~> 3.5', '>= 3.5.2'
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 2.1"
@@ -42,10 +42,15 @@ gem "thruster", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-# Bootstrap on Rails
+# Bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications [https://rubygems.org/gems/bootstrap-sass]
 gem 'bootstrap-sass', '~> 3.4.1'
+# Integrate SassC-Ruby into Rails [https://rubygems.org/gems/sassc-rails]
 gem 'sassc-rails', '>= 2.1.0'
+# Sass adapter for the Rails asset pipeline [https://rubygems.org/gems/sass-rails]
 gem 'sass-rails', '~> 6.0'
+
+#Flexible authentication solution for Rails with Warden [https://rubygems.org/gems/devise]
+gem 'devise', '~> 4.9', '>= 4.9.4'
 
 # Bootstrap Javascript
 gem 'jquery-rails'

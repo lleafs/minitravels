@@ -26,6 +26,9 @@
   <%= render 'home/header' %>
 
   <div class="container">  
+  <% flash.each do | name, msg | %>
+    <%= content_tag(:div, msg, class:"alert alter-info") %>
+    <% end %>
   <%= yield %>
   </div>
   
