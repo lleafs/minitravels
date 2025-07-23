@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+<% content_for :title, "Pins" %>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h1>Pins</h1>
+  </div>
+  <div class="panel-body">
+    <div id="pins">
+      <% @pins.each do |pin| %>
+      <%= render pin %>
+      <% end %>
+    </div>
+  </div>
+  <div class="panel-footer">
+    <%= link_to "New pin", new_pin_path %>
+  </div>
+</div>
+

@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+<div class="panel panel-default">
+  <div class="panel-heading"><%= render @pin %></div>
+  <div class="panel-body">
+
+
+<div>
+<%= link_to "Edit this pin", edit_pin_path(@pin) %> |
+<%= link_to "Back to pins", pins_path %>
+</div>
+</div>
+
+<div class="panel-footer">
+<%= button_to "Destroy this pin", @pin, method: :delete %>
+</div>
+
+</div>
