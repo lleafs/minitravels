@@ -10,11 +10,38 @@
  */
  
  /*
+ *testing bootstrap and customizers
  $jumbotron-bg: #0041a0;
  $navbar-default-gb: #014421;
  $body-bg: #fa9fb9;
+
+* the logout button pushes to the top side of the navbar
+*resetting 
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li button {
+    margin: 0;
+    border: none;
+    background: #0078d4;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+*And Aligning, this didn't work on the button
+ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+li {
+    display: flex;
+    align-items: center;
+}
 */
- 
 /* "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"*/
 @import "bootstrap-sprockets";
 @import "bootstrap";
